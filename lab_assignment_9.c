@@ -129,7 +129,6 @@ int main(void)
     printRecords(pRecords, recordSz); // Print original records
     displayRecordsInHash(hashArray, SIZE); // Display records in the hash structure
 
-    // Remember to free allocated memory after usage
     free(pRecords);
 
     return 0;
